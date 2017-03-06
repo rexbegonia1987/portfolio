@@ -1,0 +1,31 @@
+@CHARSET "EUC-KR";
+
+content{
+	margin: 0 auto;
+	text-align: center;
+}
+table{
+	border:1px solid #ccc;
+	border-collapse:collapse;
+	margin: 0 auto;
+}
+th,td{
+	border:1px solid #ccc;
+	margin: 5px 10px;
+	padding: 5px 10px;
+}
+td{
+	text-align:left;
+}
+textarea{
+	margin: 0 auto;
+	width: 100%;
+	resize:none;
+	
+}
+.ButtonArea{
+	margin-top:20px;
+}
+input[type='button']{
+	margin:10px 10px;
+}

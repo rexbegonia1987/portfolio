@@ -1,0 +1,92 @@
+body{
+	margin: 0 auto;
+	background-color:#efefef;
+}
+header{
+	text-align: center;
+	margin-bottom:30px;
+	background-color:#fff;
+}
+#al-cn{
+	display:inline-block;
+	width:900px;
+}
+content{
+	margin:0 auto;
+	text-align:center;
+	width:900px;
+}
+a{
+	color:black;
+	text-decoration:none;
+}
+textarea{
+	resize:none;
+}
+.clearfix:AFTER{
+	content:'';
+	display:block;
+	clear:both;
+}
+#gbn{
+	float:right;
+	list-style:none;
+}
+.GBN{
+	margin:0px;
+	padding:2px 4px;
+	float:left;
+	cursor:pointer;
+	font-size:11px;
+}
+#menu{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+	float:right;
+}
+.MenuList{
+	margin:0px;
+	padding:5px 10px;
+	float:left;
+	border:1px solid #ccc;
+	cursor:pointer;
+}
+.MenuList:hover{
+	border:1px solid #aaa;
+	background-color:#ddd;
+	
+}
+#DataForm{
+	text-align:center;
+}
+#DataForm form{
+	border:1px solid #ccc;
+	display:inline-block;
+	padding:30px 40px;
+}
+ #LoginVisit{
+      margin:0 auto;
+      text-align:center;
+
+}
+#VisitArea{
+   display: inline-block;
+   border:1px solid #ccc;
+   padding:10px 20px;
+}
+#ReservNum,#ReservPw{
+   margin-top:3px;
+}
+#LoginButton,#GoBack{
+   width:45%;
+   margin-top:5px;
+
+}
+#GoBack{
+margin-left:5px;
+}
+#map{
+	text-align:center;
+	margin:0 auto;
+}

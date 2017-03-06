@@ -1,0 +1,92 @@
+#MenuList{
+	list-style:none;
+	margin:0 auto;
+	padding:0;
+	display :inline-block;
+}
+#MenuList:after{
+	clear:both;
+	content:'';
+	display:block;
+}
+#MenuList li{
+	display:block;
+	float:left;
+	margin:0;
+	padding:7px 12px;
+	cursor:pointer;
+}
+
+body{
+	margin:0 auto;
+	text-align:center;
+}
+
+#PopUpArea{
+	display:none;
+	width:100%;
+	height:100%;
+	position:absolute;
+	top:0;
+	left:0;
+	background-color:rgba(0,0,0,0.3);
+	
+}
+#PopUpContent{
+	position:relative;
+	width:60%;
+	background-color:white;
+	text-align:center;
+	margin:40px auto;
+	padding:40px;
+	
+}
+#PopUPClose{
+	display:inline-block;
+	cursor:pointer;
+	background-color: #CCC;
+	border:1px solid #CCC;
+	margin-top:20px;
+	padding: 10px 20px;
+}
+table{
+	text-align:center;
+	margin:0 auto;
+}
+th{
+	padding:10px 5px;
+}
+td{
+	padding:10px 5px;
+}
+#NextWeekData{
+	display:inline-block;
+	background-color:#aaa;
+	padding:10px 30px;
+	text-align:center;
+	margin:20px auto;
+	cursor:pointer;
+}
+.Select1,.Select2,.Week{
+     border : 1px solid #ccc;
+     padding: 7px 10px;
+ }
+input[type='text']{
+     width:150px;
+  }
+  .Select{
+     background-color: #ccc;
+  }
+  .RoomList,.SelectType{
+     padding:5px 10px;
+     margin:5px;
+     border:1px solid #ccc;
+     cursor: pointer;
+  }
+  #RoomList,#SelectType{
+     margin-top:10px;
+     margin-bottom: 20px;
+  }
+#SelectArea{
+	margin:30px auto;
+}

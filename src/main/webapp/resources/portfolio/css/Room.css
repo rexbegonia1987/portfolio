@@ -1,0 +1,81 @@
+header{
+	border-bottom:1px solid #ccc;
+	margin-bottom:0px;
+}
+content{
+	background-color:#ccc;
+	height:200px;
+}
+aside{
+	float:left;
+	margin:0px;
+	padding:0px;
+}
+li{
+	list-style: none;
+	margin:0px;
+	padding:0px;
+}
+#contents{
+	float:left;
+	display:block;
+	text-align:center;
+	
+	width:800px;
+	margin-left:50px;
+}
+#FullImage{
+	position:relative;
+	width:800px;
+	height:400px;
+	
+}
+.Fimg{
+	position:absolute;
+	top:0;
+	left:0;
+	display:block;
+	width:800px;
+	height:400px;
+	text-align:center;
+	margin:0px auto;
+	
+}
+.Fimg img{
+	width:auto;
+	height:auto;
+	margin: 0 auto;
+	display:inline-block;
+	width:100%;
+	height:100%;
+}
+#SmallImage ul li{
+	float:left;
+	width:30px;
+	height:30px;
+	cursor:pointer;
+	margin:0 5px;
+}
+#SmallImage{
+	text-align: center;
+}
+#SmallImage ul{
+	display:inline-block;
+}
+#SmallImage ul li img{
+	width:95%;
+	height:95%;
+}
+.hidden{
+	display:none;
+}
+aside li{
+	list-style: none;
+	margin:0px;
+	padding:10px 30px;
+	border:1px solid #ccc;
+	cursor:pointer;
+}
+aside li:hover{
+	background-color:#ccc;
+}

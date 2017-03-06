@@ -1,0 +1,31 @@
+@CHARSET "EUC-KR";
+
+#rev{
+	display:none; !important
+}
+#BoardArea{
+	width:800px;
+	margin:0 auto;
+	text-align:center;
+}
+#BoardTable{
+	width:100%;
+	
+}
+#BoardTable th, #BoardTable td{
+	border:1px solid #ccc;
+	padding:7px;
+}
+#TextTitle{
+	width:80%;
+}
+#PageList,#ButtonList{
+	display:inline-block;
+	margin-top:20px;
+}
+#PageList li,#ButtonList li{
+	display:inline-block;
+	float:left;
+	padding: 5px 10px;
+	cursor:pointer;
+}

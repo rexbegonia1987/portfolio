@@ -1,0 +1,177 @@
+content{
+	text-align:center;
+	margin: 0 auto;
+}
+#Calendar{
+	/*width:100%;*/
+	width:800px;
+	text-align: center;
+	margin:0 auto;
+	
+}
+#CalendarTable{
+	width:100%;
+	border: 1px solid rgba(50,50,50,0.15);
+	text-align:center;
+	table-layout:fixed;
+	
+}
+
+td{
+	border: 1px solid rgba(50,50,50,0.15);
+	height:68px;
+}
+.NomalDay:hover{
+	background-color:rgba(0,0,0,0.15);
+	cursor:pointer;
+}
+.DayLine{
+	background-color:rgba(50,50,50,0.07);
+}
+.hidden{
+	display:none;
+}
+
+
+.Date{
+	display: block;
+    vertical-align: bottom;
+    width: 100%;
+    padding-top:20px;
+    margin-bottom:3px;
+   /* height:41px;*/
+}
+.EventTitle{
+	display: block;
+    text-overflow: ellipsis;
+    overflow:hidden;
+    font-size: 13px;
+    text-align: right;
+    margin: 0px auto;
+    padding: 0px 0px 2px 0px;
+    height:15px;
+    vertical-align: baseline;
+    width: 80%;
+
+}
+#LastMonth{
+	display:inline-block;
+	float:left;
+	width:20%;
+	background-color:rgba(100,100,100,0.15);
+	padding : 15px 0px 15px 0px;
+}
+#LastMonth:hover,#NextMonth:hover,#MoveToday:hover{
+	background-color:rgba(100,100,100,0.3);
+	cursor:pointer;
+}
+#Today{
+	display:inline-block;
+	padding : 15px 0px 15px 0px;
+}
+#MoveToday{
+	float:left;
+	width:20%;
+	
+	padding : 15px 0px 15px 0px;
+}
+#NextMonth{
+	display:inline-block;
+	float:right;
+	width:20%;
+	background-color:rgba(100,100,100,0.15);
+	padding : 15px 0px 15px 0px;
+	
+}
+#MoveArea{
+	border: 1px solid rgba(100,100,100,0.15);
+	border-top:2px solid rgba(100,100,100,0.15);
+	background-color:rgba(100,100,100,0.07);
+}
+.RoomsName{
+	display:block;
+	font-size: 11px;
+}
+.gray{
+	color:#ff8080;
+}
+.hide{
+	display:none;
+}
+#PopUpArea{
+	width:100%;
+	height:100%;
+	position : absolute;
+	background-color :rgba(0,0,0,0.35);
+	top:0;
+	left:0;
+	
+}
+#PopUpClose{
+	position:absolute;
+	top:0;
+	right:0;
+}
+#PopUpBackGround{
+	margin: 0 auto;
+	margin-top:100px;
+	width:800px;
+	height:300px;
+	background-color: white;
+	position:relative;
+}
+#ReservData:after{
+	clear:both;
+	content:'';
+	display:block;
+}
+.LeftForm{
+	padding:20px 20px;
+	float:left;
+	display: block;
+	width:45%;
+}
+.LeftForm input:button{
+	margin-left:15px;
+}
+.RightForm{
+	float:right;
+	display:block;
+	width:45%;
+}
+#MoveReservArea{
+	display:inline-block;
+	position:fixed;
+	top:80px;
+	right:0;
+	border:1px solid #ccc;
+	background-color:white;
+}
+#MoveReservArea span{
+	margin:0;
+}
+#MoveReservTitle{
+	display:inline-block;
+	text-align:center;
+	
+}
+#RTitle{
+	text-align:center;
+	display:inline-block;
+	float:left;
+	padding:5px 10px;
+}
+#CloseReserv{
+	border-left:1px solid #ccc;
+	display:inline-block;
+	text-align:center;
+	padding:5px;
+	float:right;
+}
+#ReservCancel{
+	display:inline-block;
+	width:100%;
+	padding:15px 5px;
+	border-top:1px solid #ccc;
+	margin:0;
+}
